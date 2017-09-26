@@ -46,11 +46,6 @@ public class DatabaseContentProvider extends ContentProvider {
 
     @Override
     public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
-        String id = null;
-       /* if(uriMatcher.match(uri) == IMAGE_ID) {
-            //Query is for one single image. Get the ID from the URI.
-            id = uri.getPathSegments().get(1);
-        }*/
         return databaseHelper.getContacts(projection, selection, selectionArgs, sortOrder);
     }
 
