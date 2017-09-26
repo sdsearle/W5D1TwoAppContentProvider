@@ -14,12 +14,10 @@ public class DatabaseContentProvider extends ContentProvider {
     private static final String PROVIDER_NAME = "/com.example.admin.w5d1twoappcontentprovide";
     private static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER_NAME + "/MY_DATABASE");
     private static final int CONTACTS = 1;
-    //private static final int IMAGE_ID = 2;
     private static final UriMatcher uriMatcher = getUriMatcher();
     private static UriMatcher getUriMatcher() {
         UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         uriMatcher.addURI(PROVIDER_NAME, "contacts", CONTACTS);
-       // uriMatcher.addURI(PROVIDER_NAME, "images/#", IMAGE_ID);
         return uriMatcher;
     }
 
