@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/W5D1TwoAppContentProvider.iml" filepath="$PROJECT_DIR$/W5D1TwoAppContentProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accessdatabase/accessdatabase.iml" filepath="$PROJECT_DIR$/accessdatabase/accessdatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
